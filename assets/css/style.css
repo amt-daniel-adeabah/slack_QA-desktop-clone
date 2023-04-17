@@ -34,6 +34,8 @@
     --section-three-user-replies-buttons-container-a-margin-left: 218px; 
     --section-three-userpost-buttons-container-a-margin-left: 180px;
     --section-three-navigation-list-i-padding-left: 16.8rem;
+
+    --activity-margin-left: 150px;
 }
 
 /* fullscreen or expand */
@@ -51,12 +53,13 @@
     
     --sections-height: 82vh;
     --section-one_div-top-margin-bottom: 45px;
-    --section-four-users-container-height: 155px;
+    --section-four-users-container-height: 170px;
     --section-four-video-img-width: 265px;
-    --section-three-user-replies-buttons-container-a-margin-left: 65px;
-    --section-three-userposts-buttons-container-a-margin-left: 230px;
-    --section-three-userpost-buttons-container-a-margin-left: 40px;
+    --section-three-user-replies-buttons-container-a-margin-left: 55px;
+    --section-three-userpost-buttons-container-a-margin-left: 30px;
     --section-three-navigation-list-i-padding-left: 110px;
+    
+    --activity-margin-left: 80px;
 }
 
 /* lite mode */
@@ -183,7 +186,7 @@ i {
 .section-one {
     width: 5%;
     border-right: var(--border-default);
-    padding: 0 8px 4px var(--font-size-default);
+    padding: 0 48px 4px 12px;
 }
 /* section one divs */
 .section-one i {
@@ -204,7 +207,7 @@ i {
 /* section one div-top */
 .section-one_div-top {
     margin-bottom: var(--section-one_div-top-margin-bottom);
-    margin-top: var(--font-size-default);
+    margin-top: 12px;
 }
 .section-one .section-one_div-top img {
     padding: 2px;
@@ -650,7 +653,7 @@ i {
 .section-four .activity i {
     font-size: 20px;
     color: var(--color-default);
-    margin-left: 150px;
+    margin-left: var(--activity-margin-left);
     cursor: pointer;
 }
 .section-four .users-container {
