@@ -5,12 +5,12 @@
     --background-secondary: #1d1c1c;
     --background-tertiary: #383636;
     --color-default: #fff;
-    --gradient-background: linear-gradient(135deg, indigo 90%, green 99.21%, blue 10%);
+    --gradient-background: linear-gradient(20deg, green 1%, indigo 53%, rgb(24, 21, 219) 99%);
     
     --color-gray: #9b9898;
     --color-blue: #3432a8;
     --color-indigo: #b705c7;
-
+    
     --border-default: 1px solid #0f0d0d;
     --border-secondary: 1px solid #252424;
 
@@ -26,7 +26,7 @@
     --main-margin: 0;
     
     --font-size-default: 1.5rem;
-
+    
     --sections-height: 100vh; 
     --section-one_div-top-margin-bottom: 155px; 
     --section-four-users-container-height: 300px;
@@ -70,7 +70,7 @@
     --background-secondary: #f1eeee;
     --background-tertiary: #d4cccc;
     --color-default: #241e1e;
-    --gradient-background: var(--gradient-background);
+    --gradient-background: linear-gradient(20deg, green 1%, indigo 53%, rgb(24, 21, 219) 99%);
     
     --color-gray: #696666;
     --color-blue: #0d09e7;
@@ -133,7 +133,7 @@ body {
     min-height: var(--body-height);
     overflow: hidden;
     margin: var(--body-margin);
-    background: linear-gradient(indigo, green, blue);
+    background: var(--gradient-background);
 }
 
 /* main */
