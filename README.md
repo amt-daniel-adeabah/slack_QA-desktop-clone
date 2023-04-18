@@ -15,4 +15,4 @@ I created this Slack_QA-desktop-clone UI as part of a challenge with friends. Th
 <img src="./images/ui/ui2.png" alt="Interface" width="100%" height="auto">
 <img src="./images/ui/light_ui.png" alt="Interface" width="auto" height="auto">
 
-- Please give me a star for my works, Thank you.
+#### Please give me a star for my works, Thank you.
